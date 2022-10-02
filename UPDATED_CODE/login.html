@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Page</title>
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+  <!-- Css linking -->
+  <link rel="stylesheet" href="css/login_updated.css">
+
+  <!-- Js linking -->
+  <script src="/javascript/login.js"></script>
+
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="wrapper">
+      <div class="title"><span>Login Form</span></div>
+      <form>
+        <div class="row">
+          <i class="fas fa-user"></i>
+          <input type="text" id="email" placeholder="Email" required>
+        </div>
+        <div class="row">
+          <i class="fas fa-lock"></i>
+          <input type="password" id="password" placeholder="Password" required>
+        </div>
+        <div class="pass"><a href="#">Forgot password?</a></div>
+        <div class="row button">
+          <input type="button" value="Login" onclick="logIn(event)">
+        </div>
+        <!-- <div class="row button">
+                  <button id="btn1" onclick="logIn(event)">Login</button>
+                </div> -->
+        <div class="signup-link">Not a member? <a href="register.html">Signup now</a></div>
+      </form>
+    </div>
+  </div>
+  <!-- <script>
+    let logIn = (e) => {
+      e.preventDefault();
+      let url = "http://localhost:3000/users/";
+
+      let email = $("#email").val();
+      console.log(email);
+
+      let password = $("#password").val();
+      console.log(password);
+
+      $.get(url, (res, status, req) => {
+        console.log("Response: " + res);
+
+        let flag = 0;
+
+        for (let i = 0; i < res.length; i++) {
+          if (res[i].email == email && res[i].password == password) {
+            // localStorage.setItem("name", res[i].first_name);
+            localStorage.setItem("email", res[i].email);
+            localStorage.setItem("name", res[i].first_name);
+            localStorage.setItem("id", res[i].id);
+            localStorage.setItem("profile-pic", res[i].profile);
+            localStorage.setItem("mobile", res[i].mobile);
+
+
+            flag = 1;
+            window.location.href = 'dashboard.html';
+          }
+        }
+
+        if (flag == 0) {
+          alert("Invalid Credentials!");
+        }
+
+        console.log(status);
+
+        console.log(req);
+      })
+    }
+  </script> -->
+
+</body>
+
+</html>

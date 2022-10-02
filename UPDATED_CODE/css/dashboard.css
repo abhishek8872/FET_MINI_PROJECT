@@ -1,0 +1,159 @@
+html {
+    scroll-behavior: smooth;
+}
+
+#content {
+    display: flex;
+   
+    gap: 50px;
+    margin-top: 20px;
+   
+
+}
+
+#nav {
+    padding-top: 40px;
+    padding-right: 20px;
+    background-color: rgb(252, 204, 212);
+    ;
+}
+
+
+
+.btn {
+    /* border-radius: 10px;
+    margin-top: 50px;
+    height: 50px;
+    width: 400px;
+    margin-left: 75px; */
+    background-color:black;
+    color: red;
+}
+
+.Homelogo {
+
+    height: 100px;
+    width: 100px;
+    margin-left: 100px;
+}
+
+.navigation {
+
+  
+    width: 100%;
+    left: 0;
+    z-index: 1000;
+}
+
+.navigation .nav-item {
+    padding: 0 0.625rem;
+
+}
+
+.navigation .navbar-nav .nav-item .nav-link {
+    color: white;
+}
+
+
+/* Footer */
+.footer{
+    background-color: rgb(33, 32, 32);
+    padding: 50px 0;
+}
+.footer_col{
+width: 30%;
+padding: 0 15px;
+}
+
+.footer_col h4{
+    font-size: 18px;
+    color: white;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    padding: auto;
+    font-weight: 800;
+    position: relative;
+}
+
+.footer_col h4::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: red;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+.footer_col ul li:not(:last-child){
+    margin-bottom: 10px;
+}
+.footer_col ul li{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.footer_col ul a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+address{
+    color: white;
+}
+
+.footer_col ul a:hover{
+    color: white;
+    padding-left: 8px;
+}
+
+.footer_col .social-links a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: gray;
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: white;
+    transition: all 0.5 ease;
+}
+
+.footer_col .social-links a:hover{
+    color: red;
+    background-color: azure;
+}
+
+@media(max-width:767px){
+    .footer_col{
+        width: 50% ;
+        margin-bottom: 30px;
+    }
+}
+@media(max-width:574){
+    .footer_col{
+        width: 100% ;
+      
+    }
+}
+@media(max-width:600px){
+    .footer_col{
+        width: 100% ;
+      
+    }
+}
+
+

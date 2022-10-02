@@ -1,0 +1,266 @@
+{
+  "users": [
+    {
+      "first_name": "Abhishek",
+      "last_name": "Chikurdekar",
+      "email": "abhishekchik@cybage.com",
+      "password": "Maths@India2022",
+      "mobile": "7385131180",
+      "id": 1
+    },
+    {
+      "first_name": "Abhishek",
+      "last_name": "Chikurdekar",
+      "email": "abhishekchik@cybage.com",
+      "password": "Maths@India2022",
+      "mobile": "7385131180",
+      "id": 2
+    },
+    {
+      "first_name": "Abhishek",
+      "last_name": "Alhat",
+      "email": "abhishekchik@cybage.com",
+      "password": "Maths@India2022",
+      "mobile": "7385131180",
+      "id": 3
+    },
+    {
+      "first_name": "Aditi",
+      "last_name": "Dhumal",
+      "email": "aditidh@cybage.com",
+      "password": "Aditi",
+      "mobile": "7385131180",
+      "id": 4
+    },
+    {
+      "first_name": "Riteek",
+      "last_name": "Dhumal",
+      "email": "riteek@cybage.com",
+      "password": "Math",
+      "mobile": "7385131180",
+      "id": 5
+    },
+    {
+      "first_name": "",
+      "last_name": "",
+      "email": "",
+      "password": "",
+      "mobile": "",
+      "id": 6
+    },
+    {
+      "first_name": "",
+      "last_name": "",
+      "email": "",
+      "password": "",
+      "mobile": "",
+      "id": 7
+    },
+    {
+      "first_name": "",
+      "last_name": "",
+      "email": "",
+      "password": "",
+      "mobile": "",
+      "id": 8
+    },
+    {
+      "first_name": "",
+      "last_name": "",
+      "email": "",
+      "password": "",
+      "mobile": "",
+      "id": 9
+    },
+    {
+      "first_name": "",
+      "last_name": "",
+      "email": "",
+      "password": "",
+      "mobile": "",
+      "id": 10
+    },
+    {
+      "first_name": "",
+      "last_name": "",
+      "email": "",
+      "password": "",
+      "mobile": "",
+      "id": 11
+    },
+    {
+      "first_name": "Anish",
+      "last_name": "deshmukh",
+      "email": "anish@cybage.com",
+      "password": "123",
+      "mobile": "7385131180",
+      "id": 12
+    },
+    {
+      "first_name": "",
+      "last_name": "",
+      "email": "",
+      "password": "",
+      "mobile": "",
+      "id": 13
+    },
+    {
+      "first_name": "Abhishek",
+      "last_name": "Chikurdekar",
+      "email": "abhishekchik@cybage.com",
+      "password": "1234",
+      "mobile": "7385131180",
+      "id": 14
+    },
+    {
+      "first_name": "",
+      "last_name": "",
+      "email": "",
+      "password": "",
+      "mobile": "",
+      "id": 15
+    },
+    {
+      "first_name": "",
+      "last_name": "",
+      "email": "",
+      "password": "",
+      "mobile": "",
+      "id": 16
+    },
+    {
+      "first_name": "Samiksha",
+      "last_name": "Chikurdekar",
+      "email": "samiksha@gmail.com",
+      "password": "samiksha",
+      "mobile": "7385131180",
+      "id": 17
+    },
+    {
+      "first_name": "akash",
+      "last_name": "shaw",
+      "email": "akash@cybage.com",
+      "password": "akash",
+      "mobile": "7584123658",
+      "id": 18
+    },
+    {
+      "first_name": "Samiksha",
+      "last_name": "Chikurdekar",
+      "email": "samiksha@gmail.com",
+      "password": "123456",
+      "mobile": "7385131180",
+      "id": 19
+    },
+    {
+      "first_name": "aditi",
+      "last_name": "dhumal",
+      "email": "aditi@cybage.com",
+      "password": "1234",
+      "mobile": "7385131180",
+      "id": 20
+    },
+    {
+      "first_name": "abhishek",
+      "last_name": "alhat",
+      "email": "abhishek@cybage.com",
+      "password": "12",
+      "mobile": "7385131180",
+      "id": 21
+    },
+    {
+      "first_name": "anish",
+      "last_name": "deshmukh",
+      "email": "anish@cybage.com",
+      "password": "123",
+      "mobile": "7385131180",
+      "id": 22
+    }
+  ],
+  "menu": [
+    {
+      "id": 1,
+      "image": "images/cart21.jpg",
+      "title": "Thai Chicken Stay",
+      "price": "Rs.249"
+    },
+    {
+      "id": 2,
+      "image": "images/cart22.jpg",
+      "title": "Thai Mini Shrimp Lettuce Wraps",
+      "price": "Rs.549"
+    },
+    {
+      "id": 3,
+      "image": "images/cart23.jpg",
+      "title": "Tom Yum Soup With Coconut Milk(Tom Khaa)",
+      "price": "Rs.349"
+    },
+    {
+      "id": 4,
+      "image": "images/cart24.jpg",
+      "title": "Larb Gai Thai Chicken Salad",
+      "price": "Rs.349"
+    },
+    {
+      "id": 5,
+      "image": "images/cart25.jpg",
+      "title": "Thai Waterfall Beef Salad",
+      "price": "Rs.349"
+    },
+    {
+      "id": 6,
+      "image": "images/cart26.jpg",
+      "title": "Green Papaya Salad(SomTam)",
+      "price": "Rs.349"
+    },
+    {
+      "id": 7,
+      "image": "images/cart27.jpg",
+      "title": "Thai Weeping Tiger Beef",
+      "price": "Rs.349"
+    },
+    {
+      "id": 8,
+      "image": "images/cart28.jpg",
+      "title": "Thai Green Curry",
+      "price": "Rs.349"
+    },
+    {
+      "id": 9,
+      "image": "images/cart29.jpg",
+      "title": "Thai Panag Curry",
+      "price": "Rs.349"
+    },
+    {
+      "id": 10,
+      "image": "images/cart30.jpg",
+      "title": "Classic Yellow Curry Chicken",
+      "price": "Rs.349"
+    },
+    {
+      "id": 11,
+      "image": "images/cart31.jpg",
+      "title": "Bangkok-style Drunken Noodles",
+      "price": "Rs.349"
+    },
+    {
+      "id": 12,
+      "image": "images/cart32.jpg",
+      "title": "Thai Grilled Whole Fish With Coriander-Chili Sauce",
+      "price": "Rs.349"
+    },
+    {
+      "id": 13,
+      "image": "images/cart33.png",
+      "title": "Thai Fillet of FIsh Baked in Banana Leaf",
+      "price": "Rs.349"
+    },
+    {
+      "id": 14,
+      "image": "images/cart35.jpg",
+      "title": "Thai Mango Sticky Rice",
+      "price": "Rs.349"
+    }
+  ]
+}
